@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color:rgba(0, 98, 90, 0.4) ;
+}
+input{
+    width: 300px;
+    height: 40px;
+    margin: 5px;
+   border-radius: 50px;
+   border-color:rgba(0, 98, 90, 0.1) ;
+   padding-left: 40%;
+  
+}
+#login-div{
+    box-shadow: 5px 5px rgba(0, 98, 90, 0.4),
+              10px 10px rgba(0, 98, 90, 0.3),
+              15px 15px rgba(0, 98, 90, 0.2),
+              20px 20px rgba(0, 98, 90, 0.1),
+              25px 25px rgba(0, 98, 90, 0.05);
+    margin-top: 50px;
+    margin-left: 500px;
+    width: 400px;
+    height: 200%;
+
+}
+.round{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.round::after{
+     width: 20px;
+  height: 20px;
+  background: red;
+  transition: width 10s;
+  transition-timing-function:cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  transition-property: all;
+}
+.round:hover{
+    width: 300px;
+    height: 300px;
+    transition: 15s;
+    transition-timing-function:inherit;
+}
+
+#submit{
+    width: 300px;
+    height: 50px;
+  background-color: rgba(0, 98, 90, 0.3);
+  color:#fff;
+   border-radius: 50px;
+}
+#submit:hover{
+    background-color: rgba(0, 98, 90, 0.4);
+}

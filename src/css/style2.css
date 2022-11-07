@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h5{
+    margin-top: 180px;
+    color: white;
+    font-family: lucida calligraphy;
+    font-size: 40px;
+}
+
+
+
+h2{
+    color: rgb(12, 11, 11);
+    margin-top: 140px;
+}
+h3{
+    color: #fff;
+   
+    font-size: 60px;
+    font-family: lucida calligraphy;
+}
+h1{
+    font-size: 60px;
+     margin-right: 100px;
+     margin-top: 100px;
+     font-family: forte;
+    
+     
+}
+h6{
+    font-size: 50px;
+    color: white;
+    font-family: lucida calligraphy;
+}
+input{
+    width: 300px;
+    height: 40px;
+    margin: 5px;
+   border-radius: 50px;
+   border-color:rgba(0, 98, 90, 0.1) ;
+  
+  
+}
+.ig1{
+    height: 50px;
+    width: 50px;
+}
+
+#login-div{
+    box-shadow: 5px 5px rgba(12, 2, 102, 0.4),
+              10px 10px rgba(18, 0, 98, 0.3),
+              15px 15px rgba(14, 1, 85, 0.2),
+              20px 20px rgba(20, 2, 61, 0.1),
+              25px 25px rgba(12, 1, 41, 0.05);
+    margin-top: 70px;
+    margin-left: 300px;
+    width: 400px;
+   height: 280px;
+   background-color: #fff;
+
+
+}
+input{
+    background-color: #5455581c;
+}
+#login-bg{
+    background-image: linear-gradient(to right, #e7bcd9 0%, #c2c4f7 100%);
+   width: 1129px;
+}
+
+.round{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+#acc{
+    height: 500px;
+    width: 500px;
+    background-image: linear-gradient(to left, #f1c7e3 0%, #c1c3f8 100%);
+    margin-left: 550px;
+    margin-top: 50px;
+}
+label{
+    font-family: ink free;
+    font-weight: 900;
+    font-size: 25px;
+}
+#add{
+    background-image: linear-gradient(to left, #f1c7e3 0%, #c1c3f8 100%);
+}
+.round::after{
+     width: 20px;
+  height: 20px;
+  background: red;
+  transition: width 10s;
+  transition-timing-function:cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  transition-property: all;
+}
+.round:hover{
+    width: 300px;
+    height: 300px;
+    transition: 15s;
+    transition-timing-function:inherit;
+}
+
+#submit{
+    width: 300px;
+    height: 50px;
+  background-color: rgba(3, 131, 120, 0.3);
+  color:#fff;
+   border-radius: 50px;
+}
+#submit:hover{
+    transition: transform 125ms;
+    transform: translateY(-10px);
+    
+  
+}
+
+#left{
+    background-color: #f1f1f7;
+    opacity: 1.4;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #030324 11px ), repeating-linear-gradient( #02063155, #010225 );width: 60%;
+    float: left;
+    width: 400px;
+    height:710px;   
+   
+    
+
+}
+
+#right{
+    
+    
+    background-color: rgba(0, 98, 90, 0.4);
+}
+#top{
+    background-color: rgb(80, 3, 73);
+    height: 67px;
+    width: 100%;
+
+
+    
+}
+#top2{
+    background-color: rgba(95, 94, 3, 0.4);
+    height: 45px;
+    width: 100%;
+
+}
+table, th, td {
+    border: 1px solid black;
+  }
+  #bgh1{
+      background-color: rgba(4, 4, 44, 0.4);
+  }
+  .wrapper{
+    text-align:center;
+  }
+  
+  svg{
+    margin: 0 auto;
+    width:60%;
+    height:70%;
+    
+  }
+  table{
+      margin-left: 5px;
+  }
+  text{
+      font-size: 22 px;
+      font-family: lucida calligraphy;
+  }
+ 
+  .about{
+     width: 950px;
+     margin-left: 290px;
+      font-family: fantasy;
+      font-size: 30px;
+  }
+  .bghome{
+      background-color: rgb(214, 209, 212);
+  }
+  .button1 .wpcf7-submit {
+    background-image: linear-gradient(to right,#ff00cc 0%,#333399 51%,#ff00cc 100%);
+    background-size: 200% auto;
+    color: #ffffff !important;
+    border-radius: 25px;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: none !important;
+    transition: 0.7s all;
+    -webkit-transition: 0.7s all;
+    margin-top: 14px;
+    display: inline-block;
+    width: 192px;
+    height: 40px;
+}
+.button1 .wpcf7-submit:hover{
+    background-position: right center;
+
+}
+
+
+  
